@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
 
 //Its written in JSX
 function App() {
 	let title= "Hye Guys"
   return (
   	<>
-	  <h1>{title}</h1>
+	  <Nav name="suryash" greet="afternoon" />
 	  </>
   );
 }
